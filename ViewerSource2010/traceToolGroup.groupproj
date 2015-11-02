@@ -1,0 +1,108 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{1266F99F-AAB3-4C7C-9739-D95B52C32146}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="..\Delphi\Delphi Demo\DelphiDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Delphi\Delphi Demo\gdebugCompatible.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Delphi\Delphi windows sample plugin\DelphiSamplePlugin.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\ActiveX\Lib\TraceToolCom.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\ActiveX\Delphi ActiveX Demo\TraceToolActivexDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Preview\Demo\General Demo\General.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TraceTool.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DelphiDemo">
+			<MSBuild Projects="..\Delphi\Delphi Demo\DelphiDemo.dproj"/>
+		</Target>
+		<Target Name="DelphiDemo:Clean">
+			<MSBuild Targets="Clean" Projects="..\Delphi\Delphi Demo\DelphiDemo.dproj"/>
+		</Target>
+		<Target Name="DelphiDemo:Make">
+			<MSBuild Targets="Make" Projects="..\Delphi\Delphi Demo\DelphiDemo.dproj"/>
+		</Target>
+		<Target Name="gdebugCompatible">
+			<MSBuild Projects="..\Delphi\Delphi Demo\gdebugCompatible.dproj"/>
+		</Target>
+		<Target Name="gdebugCompatible:Clean">
+			<MSBuild Targets="Clean" Projects="..\Delphi\Delphi Demo\gdebugCompatible.dproj"/>
+		</Target>
+		<Target Name="gdebugCompatible:Make">
+			<MSBuild Targets="Make" Projects="..\Delphi\Delphi Demo\gdebugCompatible.dproj"/>
+		</Target>
+		<Target Name="DelphiSamplePlugin">
+			<MSBuild Projects="..\Delphi\Delphi windows sample plugin\DelphiSamplePlugin.dproj"/>
+		</Target>
+		<Target Name="DelphiSamplePlugin:Clean">
+			<MSBuild Targets="Clean" Projects="..\Delphi\Delphi windows sample plugin\DelphiSamplePlugin.dproj"/>
+		</Target>
+		<Target Name="DelphiSamplePlugin:Make">
+			<MSBuild Targets="Make" Projects="..\Delphi\Delphi windows sample plugin\DelphiSamplePlugin.dproj"/>
+		</Target>
+		<Target Name="TraceToolCom">
+			<MSBuild Projects="..\ActiveX\Lib\TraceToolCom.dproj"/>
+		</Target>
+		<Target Name="TraceToolCom:Clean">
+			<MSBuild Targets="Clean" Projects="..\ActiveX\Lib\TraceToolCom.dproj"/>
+		</Target>
+		<Target Name="TraceToolCom:Make">
+			<MSBuild Targets="Make" Projects="..\ActiveX\Lib\TraceToolCom.dproj"/>
+		</Target>
+		<Target Name="TraceToolActivexDemo">
+			<MSBuild Projects="..\ActiveX\Delphi ActiveX Demo\TraceToolActivexDemo.dproj"/>
+		</Target>
+		<Target Name="TraceToolActivexDemo:Clean">
+			<MSBuild Targets="Clean" Projects="..\ActiveX\Delphi ActiveX Demo\TraceToolActivexDemo.dproj"/>
+		</Target>
+		<Target Name="TraceToolActivexDemo:Make">
+			<MSBuild Targets="Make" Projects="..\ActiveX\Delphi ActiveX Demo\TraceToolActivexDemo.dproj"/>
+		</Target>
+		<Target Name="General">
+			<MSBuild Projects="Preview\Demo\General Demo\General.dproj"/>
+		</Target>
+		<Target Name="General:Clean">
+			<MSBuild Targets="Clean" Projects="Preview\Demo\General Demo\General.dproj"/>
+		</Target>
+		<Target Name="General:Make">
+			<MSBuild Targets="Make" Projects="Preview\Demo\General Demo\General.dproj"/>
+		</Target>
+		<Target Name="TraceTool">
+			<MSBuild Projects="TraceTool.dproj"/>
+		</Target>
+		<Target Name="TraceTool:Clean">
+			<MSBuild Targets="Clean" Projects="TraceTool.dproj"/>
+		</Target>
+		<Target Name="TraceTool:Make">
+			<MSBuild Targets="Make" Projects="TraceTool.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DelphiDemo;gdebugCompatible;DelphiSamplePlugin;TraceToolCom;TraceToolActivexDemo;General;TraceTool"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DelphiDemo:Clean;gdebugCompatible:Clean;DelphiSamplePlugin:Clean;TraceToolCom:Clean;TraceToolActivexDemo:Clean;General:Clean;TraceTool:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DelphiDemo:Make;gdebugCompatible:Make;DelphiSamplePlugin:Make;TraceToolCom:Make;TraceToolActivexDemo:Make;General:Make;TraceTool:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

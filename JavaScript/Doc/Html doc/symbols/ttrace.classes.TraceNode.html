@@ -1,0 +1,1470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - ttrace.classes.TraceNode</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/ttrace.html">ttrace</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.Context.html">ttrace.classes.Context</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.FontDetail.html">ttrace.classes.FontDetail</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.MemberNode.html">ttrace.classes.MemberNode</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceNode.html">ttrace.classes.TraceNode</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceNodeEx.html">ttrace.classes.TraceNodeEx</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceTable.html">ttrace.classes.TraceTable</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.WinTrace.html">ttrace.classes.WinTrace</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.WinWatch.html">ttrace.classes.WinWatch</a></li>
+	
+	<li><a href="../symbols/ttrace.options.html">ttrace.options</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class ttrace.classes.TraceNode
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				<br />Extends
+					<a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>.<br />
+				
+			
+				TraceNode represent a node on the viewer.
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/c__TraceTool_Javascript_tracetool.js.html">tracetool.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class ttrace.classes.TraceNode.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.TraceNode.html#constructor">ttrace.classes.TraceNode</a></b>(parentNode, generateUniqueId)
+							</div>
+							<div class="description">parentNode can be another TraceNode or TraceToSend instance</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class ttrace.classes.TraceNode.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.TraceNode.html#enabled">enabled</a></b>
+								</div>
+								<div class="description">Enable methods on this node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.TraceNode.html#iconIndex">iconIndex</a></b>
+								</div>
+								<div class="description">Icon index</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.TraceNode.html#id">id</a></b>
+								</div>
+								<div class="description">Unique node id</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.TraceNode.html#winTraceId">winTraceId</a></b>
+								</div>
+								<div class="description">Wintrace id</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				<dt>Fields borrowed from class <a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>: </dt><dd><a href="../symbols/ttrace.classes.TraceToSend.html#context">context</a></dd>
+				</dl>
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class ttrace.classes.TraceNode.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#append">append</a></b>(newLeftMsg, newRightMsg)
+								</div>
+								<div class="description">Append text to a previous send message (both column)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#appendLeft">appendLeft</a></b>(newLeftMsg)
+								</div>
+								<div class="description">Append text to a previous send message</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#appendRight">appendRight</a></b>(newRightMsg)
+								</div>
+								<div class="description">Append text to a previous send message</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#deleteChildren">deleteChildren</a></b>()
+								</div>
+								<div class="description">Delete children node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#deleteIt">deleteIt</a></b>()
+								</div>
+								<div class="description">Delete the node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#gotoFirstChild">gotoFirstChild</a></b>()
+								</div>
+								<div class="description">Set focus to first child</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#gotoLastChild">gotoLastChild</a></b>()
+								</div>
+								<div class="description">Set focus to last child</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#gotoNextSibling">gotoNextSibling</a></b>()
+								</div>
+								<div class="description">Set focus to next sibling</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#gotoPrevSibling">gotoPrevSibling</a></b>()
+								</div>
+								<div class="description">Set focus to previous sibling</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#resend">resend</a></b>(newLeftMsg, newRightMsg)
+								</div>
+								<div class="description">Override a previous send message (both column)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#resendIconIndex">resendIconIndex</a></b>(index)
+								</div>
+								<div class="description">Change the Icon index</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#resendLeft">resendLeft</a></b>(newLeftMsg)
+								</div>
+								<div class="description">Override a previous send message</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#resendRight">resendRight</a></b>(newRightMsg)
+								</div>
+								<div class="description">Override a previous send message</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#setBackgroundColor">setBackgroundColor</a></b>(color, colId)
+								</div>
+								<div class="description">Change Background Color (whole line) of a node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#setBookmark">setBookmark</a></b>(Bookmarked)
+								</div>
+								<div class="description">Set or reset the bookmark for the node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#setFontDetail">setFontDetail</a></b>(colId, bold, italic, color, size, fontName)
+								</div>
+								<div class="description">Change font detail for an item in the trace.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#setSelected">setSelected</a></b>()
+								</div>
+								<div class="description">Set a node as selected in the viewer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#setVisible">setVisible</a></b>(Visible)
+								</div>
+								<div class="description">set a node visible or invisible</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.TraceNode.html#show">show</a></b>()
+								</div>
+								<div class="description">Force a node to be displayed.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				<dt>Methods borrowed from class <a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>: </dt><dd><a href="../symbols/ttrace.classes.TraceToSend.html#enterMethod">enterMethod</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#exitMethod">exitMethod</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#indent">indent</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#indentLevel">indentLevel</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#send">send</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendBackgroundColor">sendBackgroundColor</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendCaller">sendCaller</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendDump">sendDump</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendObject">sendObject</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendStack">sendStack</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendTable">sendTable</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendValue">sendValue</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendXml">sendXml</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#unIndent">unIndent</a></dd>
+				</dl>
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>ttrace.classes.TraceNode</b>(parentNode, generateUniqueId)
+				</div>
+				
+				<div class="description">
+					parentNode can be another TraceNode or TraceToSend instance
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>parentNode</b>
+								
+							</dt>
+								<dd>Parent node id</dd>
+						
+							<dt>
+								<span class="light fixedFont">{boolean}</span>  <b>generateUniqueId</b>
+								
+							</dt>
+								<dd>If true, Generate the node id</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="enabled"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>enabled</b>
+					
+					</div>
+					<div class="description">
+						Enable methods on this node
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="iconIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>iconIndex</b>
+					
+					</div>
+					<div class="description">
+						Icon index
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="id"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>id</b>
+					
+					</div>
+					<div class="description">
+						Unique node id
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="winTraceId"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>winTraceId</b>
+					
+					</div>
+					<div class="description">
+						Wintrace id
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="append"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>append</b>(newLeftMsg, newRightMsg)
+					
+					</div>
+					<div class="description">
+						Append text to a previous send message (both column)
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newLeftMsg</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The new Left message to append</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newRightMsg</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The new Right message to append</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="appendLeft"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>appendLeft</b>(newLeftMsg)
+					
+					</div>
+					<div class="description">
+						Append text to a previous send message
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newLeftMsg</b>
+									
+								</dt>
+								<dd>The new Left message to append</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="appendRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>appendRight</b>(newRightMsg)
+					
+					</div>
+					<div class="description">
+						Append text to a previous send message
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newRightMsg</b>
+									
+								</dt>
+								<dd>The new Right message to append</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteChildren"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>deleteChildren</b>()
+					
+					</div>
+					<div class="description">
+						Delete children node
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="deleteIt"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>deleteIt</b>()
+					
+					</div>
+					<div class="description">
+						Delete the node
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoFirstChild"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>gotoFirstChild</b>()
+					
+					</div>
+					<div class="description">
+						Set focus to first child
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoLastChild"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>gotoLastChild</b>()
+					
+					</div>
+					<div class="description">
+						Set focus to last child
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoNextSibling"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>gotoNextSibling</b>()
+					
+					</div>
+					<div class="description">
+						Set focus to next sibling
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoPrevSibling"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>gotoPrevSibling</b>()
+					
+					</div>
+					<div class="description">
+						Set focus to previous sibling
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="resend"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>resend</b>(newLeftMsg, newRightMsg)
+					
+					</div>
+					<div class="description">
+						Override a previous send message (both column)
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newLeftMsg</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The new Left message</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newRightMsg</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The new Right message</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="resendIconIndex"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>resendIconIndex</b>(index)
+					
+					</div>
+					<div class="description">
+						Change the Icon index
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>index</b>
+									
+								</dt>
+								<dd>Index of the icon to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="resendLeft"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>resendLeft</b>(newLeftMsg)
+					
+					</div>
+					<div class="description">
+						Override a previous send message
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newLeftMsg</b>
+									
+								</dt>
+								<dd>The new Left message</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="resendRight"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>resendRight</b>(newRightMsg)
+					
+					</div>
+					<div class="description">
+						Override a previous send message
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>newRightMsg</b>
+									
+								</dt>
+								<dd>The new Right message</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBackgroundColor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>setBackgroundColor</b>(color, colId)
+					
+					</div>
+					<div class="description">
+						Change Background Color (whole line) of a node
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>color</b>
+									
+								</dt>
+								<dd>new background color of the node</dd>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>colId</b>
+									
+								</dt>
+								<dd>Column index : All columns=-1, Icon=0, Time=1, thread=2, left msg=3, right msg =4 or user defined column</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBookmark"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>setBookmark</b>(Bookmarked)
+					
+					</div>
+					<div class="description">
+						Set or reset the bookmark for the node
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>Bookmarked</b>
+									
+								</dt>
+								<dd>true/false</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setFontDetail"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>setFontDetail</b>(colId, bold, italic, color, size, fontName)
+					
+					</div>
+					<div class="description">
+						Change font detail for an item in the trace. You can give font details in the 6 parameters or a ttrace.classes.FontDetail object
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>colId</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Column index : All columns=-1, Icon=0, Time=1, thread=2, left msg=3, right msg =4 or user defined column</dd>
+							
+								<dt>
+									<span class="light fixedFont">{bolean}</span> <b>bold</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Change font to bold</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>italic</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Change font to Italic</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>color</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Change Color</dd>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>size</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Change font size, use zero to keep normal size</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>fontName</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Change font name</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSelected"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>setSelected</b>()
+					
+					</div>
+					<div class="description">
+						Set a node as selected in the viewer. Don't confuse with show() that force a node to be displayed
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisible"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>setVisible</b>(Visible)
+					
+					</div>
+					<div class="description">
+						set a node visible or invisible
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>Visible</b>
+									
+								</dt>
+								<dd>true/false</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="show"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceNode}</span>
+					<b>show</b>()
+					
+					</div>
+					<div class="description">
+						Force a node to be displayed. don't confuse with setSelected()
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceNode}</span> The trace node</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.3.2 on Thu Dec 23 2010 15:20:51 GMT+0100 (CET)
+		</div>
+	</body>
+</html>

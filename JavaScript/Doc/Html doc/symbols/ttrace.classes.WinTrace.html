@@ -1,0 +1,1644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - ttrace.classes.WinTrace</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/ttrace.html">ttrace</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.Context.html">ttrace.classes.Context</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.FontDetail.html">ttrace.classes.FontDetail</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.MemberNode.html">ttrace.classes.MemberNode</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceNode.html">ttrace.classes.TraceNode</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceNodeEx.html">ttrace.classes.TraceNodeEx</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceTable.html">ttrace.classes.TraceTable</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.WinTrace.html">ttrace.classes.WinTrace</a></li>
+	
+	<li><a href="../symbols/ttrace.classes.WinWatch.html">ttrace.classes.WinWatch</a></li>
+	
+	<li><a href="../symbols/ttrace.options.html">ttrace.options</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class ttrace.classes.WinTrace
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				<br />Extends
+					<a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>.<br />
+				
+			
+				WinTrace represent a windows tree where you put traces.
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/c__TraceTool_Javascript_tracetool.js.html">tracetool.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class ttrace.classes.WinTrace.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#constructor">ttrace.classes.WinTrace</a></b>(WinTraceID, WinTraceText)
+							</div>
+							<div class="description">The Window Trace is create on the viewer (if not already done)if no parameters are gived, the WinTrace object represent an already created a windows tree.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class ttrace.classes.WinTrace.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#enabled">enabled</a></b>
+								</div>
+								<div class="description">Enable methods on this node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#iconIndex">iconIndex</a></b>
+								</div>
+								<div class="description">Icon index</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#id">id</a></b>
+								</div>
+								<div class="description">Unique node id</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#members">members</a></b>
+								</div>
+								<div class="description">members (always empty for Wintrace object)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#parentNodeId">parentNodeId</a></b>
+								</div>
+								<div class="description">Parent node id (sould always be an emty string)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/ttrace.classes.WinTrace.html#winTraceId">winTraceId</a></b>
+								</div>
+								<div class="description">Wintrace id</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				<dt>Fields borrowed from class <a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>: </dt><dd><a href="../symbols/ttrace.classes.TraceToSend.html#context">context</a></dd>
+				</dl>
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class ttrace.classes.WinTrace.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#addFilter">addFilter</a></b>(Column, Compare, Text)
+								</div>
+								<div class="description">Add a filter to node.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#applyFilter">applyFilter</a></b>(ConditionAnd, ShowMatch, IncludeChildren)
+								</div>
+								<div class="description">Apply filters after calls to AddFilter()</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#clearAll">clearAll</a></b>()
+								</div>
+								<div class="description">clear all trace in that window</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#clearBookmark">clearBookmark</a></b>()
+								</div>
+								<div class="description">Clear all bookmarks</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#clearFilter">clearFilter</a></b>()
+								</div>
+								<div class="description">Clear all filters</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#close">close</a></b>()
+								</div>
+								<div class="description">clear all trace in that window</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;inner&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#-createNodes">createNodes</a></b>()
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#debug">debug</a></b>()
+								</div>
+								<div class="description">Debug, Warning, Error are the 3 doors to send traces</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#displayWin">displayWin</a></b>()
+								</div>
+								<div class="description">Switch viewer to this window</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#error">error</a></b>()
+								</div>
+								<div class="description">Debug, Warning, Error are the 3 doors to send traces</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#findNext">findNext</a></b>(SearForward)
+								</div>
+								<div class="description">Set the focus to the next matching node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#gotoBookmark">gotoBookmark</a></b>(Pos)
+								</div>
+								<div class="description">Set the focus to a bookmarked node identified by his position.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#gotoFirstNode">gotoFirstNode</a></b>()
+								</div>
+								<div class="description">Set the focus to the first trace node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#gotoLastNode">gotoLastNode</a></b>()
+								</div>
+								<div class="description">Set the focus to the last trace node</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#loadXml">loadXml</a></b>(fileName)
+								</div>
+								<div class="description">Load an XML file to the window tree traces</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#saveToTextFile">saveToTextFile</a></b>(fileName)
+								</div>
+								<div class="description">Save window content to text file(Path is relative to the viewer)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#saveToXml">saveToXml</a></b>(fileName, styleSheet)
+								</div>
+								<div class="description">Save window content to xml file <p> (Path is relative to the viewer)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#setColumnsTitle">setColumnsTitle</a></b>(titles)
+								</div>
+								<div class="description">set columns title</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#setColumnsWidth">setColumnsWidth</a></b>(widths)
+								</div>
+								<div class="description">set columns widthsDeleteChildren</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#setLogFile">setLogFile</a></b>(fileName, mode, MaxLines)
+								</div>
+								<div class="description">Set the Viewer log file.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#setMultiColumn">setMultiColumn</a></b>(mainColIndex)
+								</div>
+								<div class="description">change the tree to display user defined multiple columns</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/ttrace.classes.WinTrace.html#warning">warning</a></b>()
+								</div>
+								<div class="description">Debug, Warning, Error are the 3 doors to send traces</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				<dt>Methods borrowed from class <a href="../symbols/ttrace.classes.TraceToSend.html">ttrace.classes.TraceToSend</a>: </dt><dd><a href="../symbols/ttrace.classes.TraceToSend.html#enterMethod">enterMethod</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#exitMethod">exitMethod</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#indent">indent</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#indentLevel">indentLevel</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#send">send</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendBackgroundColor">sendBackgroundColor</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendCaller">sendCaller</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendDump">sendDump</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendObject">sendObject</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendStack">sendStack</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendTable">sendTable</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendValue">sendValue</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#sendXml">sendXml</a>, <a href="../symbols/ttrace.classes.TraceToSend.html#unIndent">unIndent</a></dd>
+				</dl>
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>ttrace.classes.WinTrace</b>(WinTraceID, WinTraceText)
+				</div>
+				
+				<div class="description">
+					The Window Trace is create on the viewer (if not already done)if no parameters are gived, the WinTrace object represent an already created a windows tree. In this case nothing is send to the viewer
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>WinTraceID</b>
+								
+							</dt>
+								<dd>Window trace Id. If empty, a guid will be generated</dd>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>WinTraceText</b>
+								
+							</dt>
+								<dd>The Window Title on the viewer.If empty, a default name will be used</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="enabled"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>enabled</b>
+					
+					</div>
+					<div class="description">
+						Enable methods on this node
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="iconIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>iconIndex</b>
+					
+					</div>
+					<div class="description">
+						Icon index
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="id"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>id</b>
+					
+					</div>
+					<div class="description">
+						Unique node id
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="members"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>members</b>
+					
+					</div>
+					<div class="description">
+						members (always empty for Wintrace object)
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="parentNodeId"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>parentNodeId</b>
+					
+					</div>
+					<div class="description">
+						Parent node id (sould always be an emty string)
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="winTraceId"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>winTraceId</b>
+					
+					</div>
+					<div class="description">
+						Wintrace id
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="addFilter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>addFilter</b>(Column, Compare, Text)
+					
+					</div>
+					<div class="description">
+						Add a filter to node. Multiple calls to this function can be done. Call ApplyFilter() to apply filtering
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>Column</b>
+									
+								</dt>
+								<dd>Column to apply filter.<p>In multicolumn mode the first column start at 0 <p>In normal mode : <p>col icone   = 999    <p>col time    = 1      <p>col thread  = 2      <p>col traces  = 3      <p>col Comment = 4      <p>col members = 998</dd>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>Compare</b>
+									
+								</dt>
+								<dd>There is 5 kinds of filters : <p>Equal           = 0  <p>Not equal       = 1  <p>contains        = 2  <p>Don't contains  = 3  <p>(Ignore this filter) = 4 or -1</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>Text</b>
+									
+								</dt>
+								<dd>The text to search (insensitive)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="applyFilter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>applyFilter</b>(ConditionAnd, ShowMatch, IncludeChildren)
+					
+					</div>
+					<div class="description">
+						Apply filters after calls to AddFilter()
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>ConditionAnd</b>
+									
+								</dt>
+								<dd>If true, use an 'AND' condition for each filters, else use a "OR"</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>ShowMatch</b>
+									
+								</dt>
+								<dd>If true, show node that match filter and hide others. If false hide matching node and show others</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>IncludeChildren</b>
+									
+								</dt>
+								<dd>If true, search in subnodes</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearAll"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>clearAll</b>()
+					
+					</div>
+					<div class="description">
+						clear all trace in that window
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearBookmark"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>clearBookmark</b>()
+					
+					</div>
+					<div class="description">
+						Clear all bookmarks
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="clearFilter"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>clearFilter</b>()
+					
+					</div>
+					<div class="description">
+						Clear all filters
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="close"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>close</b>()
+					
+					</div>
+					<div class="description">
+						clear all trace in that window
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="-createNodes"> </a>
+					<div class="fixedFont">&lt;inner&gt; 
+					
+					
+					<b>createNodes</b>()
+					
+					</div>
+					<div class="description">
+						
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="debug"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceToSend}</span>
+					<b>debug</b>()
+					
+					</div>
+					<div class="description">
+						Debug, Warning, Error are the 3 doors to send traces
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceToSend}</span> The debug TraceNode</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="displayWin"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>displayWin</b>()
+					
+					</div>
+					<div class="description">
+						Switch viewer to this window
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="error"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceToSend}</span>
+					<b>error</b>()
+					
+					</div>
+					<div class="description">
+						Debug, Warning, Error are the 3 doors to send traces
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceToSend}</span> The error TraceNode</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="findNext"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>findNext</b>(SearForward)
+					
+					</div>
+					<div class="description">
+						Set the focus to the next matching node
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>SearForward</b>
+									
+								</dt>
+								<dd>If true search down, else search up</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoBookmark"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>gotoBookmark</b>(Pos)
+					
+					</div>
+					<div class="description">
+						Set the focus to a bookmarked node identified by his position. Bookmarks are cheched by the user or with the node.SetBookmark() function
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>Pos</b>
+									
+								</dt>
+								<dd>Indice of the bookmark</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoFirstNode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>gotoFirstNode</b>()
+					
+					</div>
+					<div class="description">
+						Set the focus to the first trace node
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="gotoLastNode"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>gotoLastNode</b>()
+					
+					</div>
+					<div class="description">
+						Set the focus to the last trace node
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="loadXml"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>loadXml</b>(fileName)
+					
+					</div>
+					<div class="description">
+						Load an XML file to the window tree traces
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>fileName</b>
+									
+								</dt>
+								<dd>file to open</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="saveToTextFile"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>saveToTextFile</b>(fileName)
+					
+					</div>
+					<div class="description">
+						Save window content to text file(Path is relative to the viewer)
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>fileName</b>
+									
+								</dt>
+								<dd>target filename</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="saveToXml"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>saveToXml</b>(fileName, styleSheet)
+					
+					</div>
+					<div class="description">
+						Save window content to xml file <p> (Path is relative to the viewer)
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>fileName</b>
+									
+								</dt>
+								<dd>target filename</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>styleSheet</b>
+									<i>Optional</i>
+								</dt>
+								<dd>optional stylesheet file name</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setColumnsTitle"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>setColumnsTitle</b>(titles)
+					
+					</div>
+					<div class="description">
+						set columns title
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>titles</b>
+									
+								</dt>
+								<dd>tab separated columns titles</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setColumnsWidth"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>setColumnsWidth</b>(widths)
+					
+					</div>
+					<div class="description">
+						set columns widthsDeleteChildren
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>widths</b>
+									
+								</dt>
+								<dd>Tab separated columns width. <p>The format for each column is width[:Min[:Max]] <p>where Min and Max are optional minimum and maximum column width for resizing purpose.<p>Example : 100:20:80 tab 200:50 tab 100</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setLogFile"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>setLogFile</b>(fileName, mode, MaxLines)
+					
+					</div>
+					<div class="description">
+						Set the Viewer log file. Local log file is not supported in javascript.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>fileName</b>
+									
+								</dt>
+								<dd>target filename.(Path is relative to the viewer)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>mode</b>
+									
+								</dt>
+								<dd><p>When 0, Log is disabled. <p>When 1, Enabled.<p>When 2, a new file is create each day (CCYYMMDD is appended to the filename)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>MaxLines</b>
+									
+								</dt>
+								<dd>Number of lines before starting a new file (default : -1 = unlimited)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setMultiColumn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{void}</span>
+					<b>setMultiColumn</b>(mainColIndex)
+					
+					</div>
+					<div class="description">
+						change the tree to display user defined multiple columns
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{integer}</span> <b>mainColIndex</b>
+									
+								</dt>
+								<dd>The Main column index (default is 0)</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{void}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="warning"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{TraceToSend}</span>
+					<b>warning</b>()
+					
+					</div>
+					<div class="description">
+						Debug, Warning, Error are the 3 doors to send traces
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{TraceToSend}</span> The warning TraceNode</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.3.2 on Thu Dec 23 2010 15:20:51 GMT+0100 (CET)
+		</div>
+	</body>
+</html>
