@@ -8,109 +8,10 @@
   resources were bound to the produced executable.
 */
 
-#define IdResourceStringsCore_RSMaximumNumberOfCaptureLineExceeded 65136
-#define IdResourceStringsCore_RSTransparentProxyCannotBind 65137
-#define IdResourceStringsCore_RSTransparentProxyCanNotSupportUDP 65138
-#define IdResourceStringsCore_RSBufferMissingTerminator 65139
-#define IdResourceStringsCore_RSBufferInvalidStartPos 65140
-#define IdResourceStringsCore_RSReplyInvalidCode 65141
-#define IdResourceStringsCore_RSUDPMustUseProxyOpen 65142
-#define IdResourceStringsCore_RSSocksServerHostUnreachableError 65152
-#define IdResourceStringsCore_RSSocksServerConnectionRefusedError 65153
-#define IdResourceStringsCore_RSSocksServerTTLExpiredError 65154
-#define IdResourceStringsCore_RSSocksServerCommandError 65155
-#define IdResourceStringsCore_RSSocksServerAddressError 65156
-#define IdResourceStringsCore_RSInterceptCircularLink 65157
-#define IdResourceStringsCore_RSNotEnoughDataInBuffer 65158
-#define IdResourceStringsCore_RSTooMuchDataInBuffer 65159
-#define IdResourceStringsCore_RSFileNotFound 65160
-#define IdResourceStringsCore_RSNotConnected 65161
-#define IdResourceStringsCore_RSObjectTypeNotSupported 65162
-#define IdResourceStringsCore_RSIdNoDataToRead 65163
-#define IdResourceStringsCore_RSReadTimeout 65164
-#define IdResourceStringsCore_RSReadLnMaxLineLengthExceeded 65165
-#define IdResourceStringsCore_RSConnectTimeout 65166
-#define IdResourceStringsCore_RSAlreadyConnected 65167
-#define IdResourceStrings_RSNotAllBytesSent 65168
-#define IdResourceStrings_RSPackageSizeTooBig 65169
-#define IdResourceStrings_RSSetSizeExceeded 65170
-#define IdResourceStrings_RSStreamNotEnoughBytes 65171
-#define IdResourceStrings_RSEndOfStream 65172
-#define IdResourceStringsCore_RSSocksUDPNotSupported 65173
-#define IdResourceStringsCore_RSSocksRequestFailed 65174
-#define IdResourceStringsCore_RSSocksRequestServerFailed 65175
-#define IdResourceStringsCore_RSSocksRequestIdentFailed 65176
-#define IdResourceStringsCore_RSSocksUnknownError 65177
-#define IdResourceStringsCore_RSSocksServerRespondError 65178
-#define IdResourceStringsCore_RSSocksAuthMethodError 65179
-#define IdResourceStringsCore_RSSocksAuthError 65180
-#define IdResourceStringsCore_RSSocksServerGeneralError 65181
-#define IdResourceStringsCore_RSSocksServerPermissionError 65182
-#define IdResourceStringsCore_RSSocksServerNetUnreachableError 65183
-#define IdResourceStrings_RSStackENAMETOOLONG 65184
-#define IdResourceStrings_RSStackEHOSTDOWN 65185
-#define IdResourceStrings_RSStackEHOSTUNREACH 65186
-#define IdResourceStrings_RSStackENOTEMPTY 65187
-#define IdResourceStrings_RSStackHOST_NOT_FOUND 65188
-#define IdResourceStrings_RSStackClassUndefined 65189
-#define IdResourceStrings_RSStackAlreadyCreated 65190
-#define IdResourceStrings_RSAntiFreezeOnlyOne 65191
-#define IdResourceStrings_RSCannotSetIPVersionWhenConnected 65192
-#define IdResourceStrings_RSCannotBindRange 65193
-#define IdResourceStrings_RSConnectionClosedGracefully 65194
-#define IdResourceStrings_RSCouldNotBindSocket 65195
-#define IdResourceStrings_RSInvalidPortRange 65196
-#define IdResourceStrings_RSInvalidServiceName 65197
-#define IdResourceStrings_RSIPv6Unavailable 65198
-#define IdResourceStrings_RSIPVersionUnsupported 65199
-#define IdResourceStrings_RSStackEAFNOSUPPORT 65200
-#define IdResourceStrings_RSStackEADDRINUSE 65201
-#define IdResourceStrings_RSStackEADDRNOTAVAIL 65202
-#define IdResourceStrings_RSStackENETDOWN 65203
-#define IdResourceStrings_RSStackENETUNREACH 65204
-#define IdResourceStrings_RSStackENETRESET 65205
-#define IdResourceStrings_RSStackECONNABORTED 65206
-#define IdResourceStrings_RSStackECONNRESET 65207
-#define IdResourceStrings_RSStackENOBUFS 65208
-#define IdResourceStrings_RSStackEISCONN 65209
-#define IdResourceStrings_RSStackENOTCONN 65210
-#define IdResourceStrings_RSStackESHUTDOWN 65211
-#define IdResourceStrings_RSStackETOOMANYREFS 65212
-#define IdResourceStrings_RSStackETIMEDOUT 65213
-#define IdResourceStrings_RSStackECONNREFUSED 65214
-#define IdResourceStrings_RSStackELOOP 65215
-#define IdResourceStrings_RSStackEACCES 65216
-#define IdResourceStrings_RSStackEFAULT 65217
-#define IdResourceStrings_RSStackEINVAL 65218
-#define IdResourceStrings_RSStackEMFILE 65219
-#define IdResourceStrings_RSStackEWOULDBLOCK 65220
-#define IdResourceStrings_RSStackEINPROGRESS 65221
-#define IdResourceStrings_RSStackEALREADY 65222
-#define IdResourceStrings_RSStackENOTSOCK 65223
-#define IdResourceStrings_RSStackEDESTADDRREQ 65224
-#define IdResourceStrings_RSStackEMSGSIZE 65225
-#define IdResourceStrings_RSStackEPROTOTYPE 65226
-#define IdResourceStrings_RSStackENOPROTOOPT 65227
-#define IdResourceStrings_RSStackEPROTONOSUPPORT 65228
-#define IdResourceStrings_RSStackESOCKTNOSUPPORT 65229
-#define IdResourceStrings_RSStackEOPNOTSUPP 65230
-#define IdResourceStrings_RSStackEPFNOSUPPORT 65231
 #define ComConst_SOleError 65232
 #define ComConst_SNoMethod 65233
 #define ComConst_SVarNotObject 65234
 #define ComConst_STooManyParams 65235
-#define IdResourceStrings_RSWinsockCallError 65236
-#define IdResourceStrings_RSWinsockLoadError 65237
-#define IdResourceStrings_RSWinsockInitializationError 65238
-#define IdResourceStrings_RSStatusResolving 65239
-#define IdResourceStrings_RSStatusConnecting 65240
-#define IdResourceStrings_RSStatusConnected 65241
-#define IdResourceStrings_RSStatusDisconnecting 65242
-#define IdResourceStrings_RSStatusDisconnected 65243
-#define IdResourceStrings_RSStatusText 65244
-#define IdResourceStrings_RSStackError 65245
-#define IdResourceStrings_RSStackEINTR 65246
-#define IdResourceStrings_RSStackEBADF 65247
 #define ExtCtrls_clNameNone 65248
 #define ExtCtrls_clNameScrollBar 65249
 #define ExtCtrls_clName3DDkShadow 65250
@@ -401,109 +302,10 @@
 #define SysConst_SInvalidOp 65535
 STRINGTABLE
 BEGIN
-	IdResourceStringsCore_RSMaximumNumberOfCaptureLineExceeded,	"Maximum number of line allowed exceeded"
-	IdResourceStringsCore_RSTransparentProxyCannotBind,	"Transparent proxy cannot bind."
-	IdResourceStringsCore_RSTransparentProxyCanNotSupportUDP,	"UDP Not supported by this proxy."
-	IdResourceStringsCore_RSBufferMissingTerminator,	"Buffer terminator must be specified."
-	IdResourceStringsCore_RSBufferInvalidStartPos,	"Buffer start position is invalid."
-	IdResourceStringsCore_RSReplyInvalidCode,	"Reply Code is not valid: %s"
-	IdResourceStringsCore_RSUDPMustUseProxyOpen,	"You must use proxyOpen"
-	IdResourceStringsCore_RSSocksServerHostUnreachableError,	"Host unreachable."
-	IdResourceStringsCore_RSSocksServerConnectionRefusedError,	"Connection refused."
-	IdResourceStringsCore_RSSocksServerTTLExpiredError,	"TTL expired."
-	IdResourceStringsCore_RSSocksServerCommandError,	"Command not supported."
-	IdResourceStringsCore_RSSocksServerAddressError,	"Address type not supported."
-	IdResourceStringsCore_RSInterceptCircularLink,	"%d: Circular links are not allowed"
-	IdResourceStringsCore_RSNotEnoughDataInBuffer,	"Not enough data in buffer."
-	IdResourceStringsCore_RSTooMuchDataInBuffer,	"Too much data in buffer."
-	IdResourceStringsCore_RSFileNotFound,	"File \"%s\" not found"
-	IdResourceStringsCore_RSNotConnected,	"Not Connected"
-	IdResourceStringsCore_RSObjectTypeNotSupported,	"Object type not supported."
-	IdResourceStringsCore_RSIdNoDataToRead,	"No data to read."
-	IdResourceStringsCore_RSReadTimeout,	"Read Timeout"
-	IdResourceStringsCore_RSReadLnMaxLineLengthExceeded,	"Max line length exceeded."
-	IdResourceStringsCore_RSConnectTimeout,	"Connect timed out."
-	IdResourceStringsCore_RSAlreadyConnected,	"Already connected."
-	IdResourceStrings_RSNotAllBytesSent,	"Not all bytes sent."
-	IdResourceStrings_RSPackageSizeTooBig,	"Package Size Too Big."
-	IdResourceStrings_RSSetSizeExceeded,	"Set Size Exceeded."
-	IdResourceStrings_RSStreamNotEnoughBytes,	"Not enough bytes read from stream."
-	IdResourceStrings_RSEndOfStream,	"End of stream: Class %s at %d"
-	IdResourceStringsCore_RSSocksUDPNotSupported,	"UDP is not support in this SOCKS version."
-	IdResourceStringsCore_RSSocksRequestFailed,	"Request rejected or failed."
-	IdResourceStringsCore_RSSocksRequestServerFailed,	"Request rejected because SOCKS server cannot connect."
-	IdResourceStringsCore_RSSocksRequestIdentFailed,	"Request rejected because the client program and identd report different user-ids."
-	IdResourceStringsCore_RSSocksUnknownError,	"Unknown socks error."
-	IdResourceStringsCore_RSSocksServerRespondError,	"Socks server did not respond."
-	IdResourceStringsCore_RSSocksAuthMethodError,	"Invalid socks authentication method."
-	IdResourceStringsCore_RSSocksAuthError,	"Authentication error to socks server."
-	IdResourceStringsCore_RSSocksServerGeneralError,	"General SOCKS server failure."
-	IdResourceStringsCore_RSSocksServerPermissionError,	"Connection not allowed by ruleset."
-	IdResourceStringsCore_RSSocksServerNetUnreachableError,	"Network unreachable."
-	IdResourceStrings_RSStackENAMETOOLONG,	"File name too long."
-	IdResourceStrings_RSStackEHOSTDOWN,	"Host is down."
-	IdResourceStrings_RSStackEHOSTUNREACH,	"No route to host."
-	IdResourceStrings_RSStackENOTEMPTY,	"Directory not empty"
-	IdResourceStrings_RSStackHOST_NOT_FOUND,	"Host not found."
-	IdResourceStrings_RSStackClassUndefined,	"Stack Class is undefined."
-	IdResourceStrings_RSStackAlreadyCreated,	"Stack already created."
-	IdResourceStrings_RSAntiFreezeOnlyOne,	"Only one TIdAntiFreeze can exist per application."
-	IdResourceStrings_RSCannotSetIPVersionWhenConnected,	"Cannot change IPVersion when connected"
-	IdResourceStrings_RSCannotBindRange,	"Can not bind in port range (%d - %d)"
-	IdResourceStrings_RSConnectionClosedGracefully,	"Connection Closed Gracefully."
-	IdResourceStrings_RSCouldNotBindSocket,	"Could not bind socket. Address and port are already in use."
-	IdResourceStrings_RSInvalidPortRange,	"Invalid Port Range (%d - %d)"
-	IdResourceStrings_RSInvalidServiceName,	"%s is not a valid service."
-	IdResourceStrings_RSIPv6Unavailable,	"IPv6 unavailable"
-	IdResourceStrings_RSIPVersionUnsupported,	"The requested IPVersion / Address family is not supported."
-	IdResourceStrings_RSStackEAFNOSUPPORT,	"Address family not supported by protocol family."
-	IdResourceStrings_RSStackEADDRINUSE,	"Address already in use."
-	IdResourceStrings_RSStackEADDRNOTAVAIL,	"Cannot assign requested address."
-	IdResourceStrings_RSStackENETDOWN,	"Network is down."
-	IdResourceStrings_RSStackENETUNREACH,	"Network is unreachable."
-	IdResourceStrings_RSStackENETRESET,	"Net dropped connection or reset."
-	IdResourceStrings_RSStackECONNABORTED,	"Software caused connection abort."
-	IdResourceStrings_RSStackECONNRESET,	"Connection reset by peer."
-	IdResourceStrings_RSStackENOBUFS,	"No buffer space available."
-	IdResourceStrings_RSStackEISCONN,	"Socket is already connected."
-	IdResourceStrings_RSStackENOTCONN,	"Socket is not connected."
-	IdResourceStrings_RSStackESHUTDOWN,	"Cannot send or receive after socket is closed."
-	IdResourceStrings_RSStackETOOMANYREFS,	"Too many references, cannot splice."
-	IdResourceStrings_RSStackETIMEDOUT,	"Connection timed out."
-	IdResourceStrings_RSStackECONNREFUSED,	"Connection refused."
-	IdResourceStrings_RSStackELOOP,	"Too many levels of symbolic links."
-	IdResourceStrings_RSStackEACCES,	"Access denied."
-	IdResourceStrings_RSStackEFAULT,	"Buffer fault."
-	IdResourceStrings_RSStackEINVAL,	"Invalid argument."
-	IdResourceStrings_RSStackEMFILE,	"Too many open files."
-	IdResourceStrings_RSStackEWOULDBLOCK,	"Operation would block."
-	IdResourceStrings_RSStackEINPROGRESS,	"Operation now in progress."
-	IdResourceStrings_RSStackEALREADY,	"Operation already in progress."
-	IdResourceStrings_RSStackENOTSOCK,	"Socket operation on non-socket."
-	IdResourceStrings_RSStackEDESTADDRREQ,	"Destination address required."
-	IdResourceStrings_RSStackEMSGSIZE,	"Message too long."
-	IdResourceStrings_RSStackEPROTOTYPE,	"Protocol wrong type for socket."
-	IdResourceStrings_RSStackENOPROTOOPT,	"Bad protocol option."
-	IdResourceStrings_RSStackEPROTONOSUPPORT,	"Protocol not supported."
-	IdResourceStrings_RSStackESOCKTNOSUPPORT,	"Socket type not supported."
-	IdResourceStrings_RSStackEOPNOTSUPP,	"Operation not supported on socket."
-	IdResourceStrings_RSStackEPFNOSUPPORT,	"Protocol family not supported."
 	ComConst_SOleError,	"OLE error %.8x"
 	ComConst_SNoMethod,	"Method '%s' not supported by automation object"
 	ComConst_SVarNotObject,	"Variant does not reference an automation object"
 	ComConst_STooManyParams,	"Dispatch methods do not support more than 64 parameters"
-	IdResourceStrings_RSWinsockCallError,	"Error on call Winsock2 library function %s"
-	IdResourceStrings_RSWinsockLoadError,	"Error on loading Winsock2 library (%s)"
-	IdResourceStrings_RSWinsockInitializationError,	"Winsock Initialization Error."
-	IdResourceStrings_RSStatusResolving,	"Resolving hostname %s."
-	IdResourceStrings_RSStatusConnecting,	"Connecting to %s."
-	IdResourceStrings_RSStatusConnected,	"Connected."
-	IdResourceStrings_RSStatusDisconnecting,	"Disconnecting."
-	IdResourceStrings_RSStatusDisconnected,	"Disconnected."
-	IdResourceStrings_RSStatusText,	"%s"
-	IdResourceStrings_RSStackError,	"Socket Error # %d\r\n%s"
-	IdResourceStrings_RSStackEINTR,	"Interrupted system call."
-	IdResourceStrings_RSStackEBADF,	"Bad file number."
 	ExtCtrls_clNameNone,	"None"
 	ExtCtrls_clNameScrollBar,	"Scroll Bar"
 	ExtCtrls_clName3DDkShadow,	"3D Dark Shadow"

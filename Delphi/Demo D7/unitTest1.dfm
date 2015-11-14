@@ -1,8 +1,8 @@
 object form1: Tform1
-  Left = 455
-  Top = 178
+  Left = 341
+  Top = 0
   Width = 691
-  Height = 505
+  Height = 221
   Caption = 'Delphi Demo (single byte string)'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -20,8 +20,8 @@ object form1: Tform1
   object PageControl1: TPageControl
     Left = 0
     Top = 0
-    Width = 683
-    Height = 430
+    Width = 675
+    Height = 142
     ActivePage = TabSheet1
     Align = alClient
     TabOrder = 0
@@ -2106,8 +2106,8 @@ object form1: Tform1
   end
   object Panel3: TPanel
     Left = 0
-    Top = 430
-    Width = 683
+    Top = 142
+    Width = 675
     Height = 41
     Align = alBottom
     TabOrder = 1

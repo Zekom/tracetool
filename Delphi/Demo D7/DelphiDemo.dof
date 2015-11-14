@@ -94,7 +94,7 @@ OutputDir=
 UnitOutputDir=
 PackageDLLOutputDir=
 PackageDCPOutputDir=
-SearchPath=
+SearchPath=..\;..\Delphi Library
 Packages=vclx30;VCL30;vcldb30;vcldbx30;inetdb30;inet30;VclSmp30;Qrpt30;teeui30;teedb30;tee30;dss30;IBEVNT30;scdpck3;encryptage
 Conditionals=
 DebugSourceDirs=
@@ -134,3 +134,9 @@ OriginalFilename=
 ProductName=
 ProductVersion=1.0.0.0
 Comments=
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=1
+Item0=..\;..\Delphi Library
